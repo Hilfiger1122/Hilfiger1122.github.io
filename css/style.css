@@ -80,12 +80,12 @@ dl {
 }
 
 a {
-    color: #F7F7F8 ;
+    color: #808000;
     text-decoration: none;
 }
 
 a:hover{
-    color: #343131;
+    color: #FFFDD0;
     text-decoration: underline;
 }
 
