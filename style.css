@@ -99,7 +99,7 @@ a:hover{
     background-color: #F4A261;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 #projects .card img{
