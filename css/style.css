@@ -84,6 +84,11 @@ a {
     text-decoration: none;
 }
 
+#Education{
+    display: grid; 
+    grid-template-columns: 10em auto 10em;
+}
+
 a:hover{
     color: #FFFDD0;
     text-decoration: underline;
