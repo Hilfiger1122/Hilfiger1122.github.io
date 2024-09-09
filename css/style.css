@@ -14,8 +14,10 @@ nav#name{
     justify-content: space-between;
    align-items: center;
     border-top: 5px solid #E9C46A;
-    
+    font-size: 1.5rem;
 }
+
+
 
 h1 {
     color: #FFFDD0;
