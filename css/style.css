@@ -5,6 +5,8 @@ body {
   
 }
 
+
+
 nav#name{
     background-color: #36BA98;
     padding: 10px;
@@ -12,6 +14,14 @@ nav#name{
     justify-content: space-between;
    align-items: center;
     border-top: 5px solid #E9C46A;
+    
+}
+
+h1 {
+    color: #FFFDD0;
+    font-size: 2.0em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
 }
 
 footer {
@@ -52,6 +62,33 @@ footer {
     color: #522258;
 }
 
+section#Education{
+    display: grid;
+    grid-template-columns: 10em auto 1em;
+}
+
+.honors img{
+    border-radius: 8%;
+    box-shadow: 0 4px 10px #36BA98;
+    display: block;
+    margin-right: 100%;
+    width: 15%;
+}
+
+.honors img:hover{
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.honors{
+    padding-bottom: 4x;
+    color: #000;
+    font-family: 'Roboto' , Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 hr{
     border :1px solid #36BA98;
     margin: 20px 0 ;
@@ -80,13 +117,8 @@ dl {
 }
 
 a {
-    color: #808000;
+    color: #808000 ;
     text-decoration: none;
-}
-
-section#Education{
-    display: grid; 
-    grid-template-columns: 10em auto 10em;
 }
 
 a:hover{
@@ -104,7 +136,7 @@ a:hover{
     background-color: #F4A261;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 #projects .card img{
@@ -142,7 +174,7 @@ a:hover{
     width: 100%;
     padding: 10px;
     border: 1px solid #E9C46A;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 1rem;
 
 }
